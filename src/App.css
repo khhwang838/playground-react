@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #282c34;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  header { height: 0px; overflow: hidden;}
+  .column {
+    width: 100%;
+  }
+  #topMenu ul li {
+    width: 100%;
+    float: none;
+  }
+  #topMenu .menuLink {
+    width: 100%;
+  }
+  .menu ul {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 340px) {
+  .column {
+    width: 100%;
+  }
+}

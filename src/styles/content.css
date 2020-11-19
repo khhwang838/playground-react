@@ -1,0 +1,23 @@
+#content {
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    float: left;
+    padding: 15px;
+}
+.column .content{
+    width: 80%;
+}
+
+.column .menu {
+    min-width: 100px;
+    max-width: 200px;
+}
+
+.row {
+    width: 100%;
+}
