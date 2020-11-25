@@ -1,4 +1,4 @@
-#content {
+#area-content {
     width: 1024px;
     margin: auto;
     display: flex;
@@ -10,7 +10,7 @@
     padding: 15px;
     margin: auto;
 }
-.column.content{
+#content{
     width: 80%;
     max-width: 840px;
 }
@@ -24,7 +24,7 @@
     width: 100%;
 }
 
-.content img {
+#content img {
     width: 100%;
     max-width: 840px;
 }
