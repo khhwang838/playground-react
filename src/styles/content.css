@@ -8,9 +8,11 @@
 .column {
     float: left;
     padding: 15px;
+    margin: auto;
 }
-.column .content{
+.column.content{
     width: 80%;
+    max-width: 840px;
 }
 
 .column .menu {
@@ -20,4 +22,13 @@
 
 .row {
     width: 100%;
+}
+
+.content img {
+    width: 100%;
+    max-width: 840px;
+}
+
+.no-float {
+    float: none;
 }

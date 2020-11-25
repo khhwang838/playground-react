@@ -8,7 +8,10 @@ class Header extends Component {
     render() {
         return (
             <header>
-                This is header area.
+                <div id="blog-intro">
+                    <b>Efficient, Rapid, Accurate</b>
+                </div>
+                <div id="blog-name"><b>깐깐한 개발자의 블로그</b></div>
             </header>
         );
     }

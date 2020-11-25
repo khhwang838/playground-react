@@ -10,16 +10,13 @@ class TopMenu extends Component {
             <nav id="topMenu" className="menu">
                 <ul>
                     <li><a className="menuLink" href="#" menu_no="1" onClick={this.changeMenu}>
-                        About</a></li>
+                        Intro</a></li>
 
                     <li><a className="menuLink" href="#" menu_no="2" onClick={this.changeMenu}>
                         Blog</a></li>
 
                     <li><a className="menuLink" href="#" menu_no="3" onClick={this.changeMenu}>
-                        News</a></li>
-
-                    <li><a className="menuLink" href="#" menu_no="4" onClick={this.changeMenu}>
-                        Statictics</a></li>
+                        Stats</a></li>
                 </ul>
             </nav>
         );

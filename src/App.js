@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import TopMenu from './components/menu-top';
 import Content from './components/content';
 import Header from './components/header';
+import Footer from './components/footer';
 import './App.css';
 import { render } from '@testing-library/react';
 
@@ -22,7 +23,6 @@ class App extends Component {
       });
     } else if (type === 'side_menu') {
       this.setState({
-        selected_top_menu: this.state.selected_top_menu,
         selected_side_menu: id
       });
     }
@@ -33,6 +33,7 @@ class App extends Component {
         <Header />
         <TopMenu id={this.state.selected_top_menu} changeMenuHandler={this.changeMenuHandler} />
         <Content top_menu_id={this.state.selected_top_menu} side_menu_id={this.state.selected_side_menu} />
+        <Footer />
       </div>
     );
   }
